@@ -10,4 +10,3 @@ def post(animal):
     response = requests.post(URL, json = animalToAdd)
     data = response.json()
     return data, response
-    
